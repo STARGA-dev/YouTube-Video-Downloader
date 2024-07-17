@@ -14,6 +14,6 @@ def download_youtube_video(url, output_path='.'):
     except Exception as e:
         print(f"Ha ocurrido un error inesperado: {e}")
 
-# Ejemplo de uso
-url = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'  # Reemplaza con la URL del video que deseas descargar
+
+url = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'  
 download_youtube_video(url)
